@@ -27,5 +27,5 @@ func CalcSquare(sideLen float64, sidesNum side) float64 {
 }
 
 func main() {
-
+	println(CalcSquare(3, 3))
 }
