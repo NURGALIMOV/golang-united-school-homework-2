@@ -1,4 +1,4 @@
-package main
+package square
 
 import (
 	"math"
@@ -24,8 +24,4 @@ func CalcSquare(sideLen float64, sidesNum side) float64 {
 	default:
 		return 0
 	}
-}
-
-func main() {
-	println(CalcSquare(3, 3))
 }
