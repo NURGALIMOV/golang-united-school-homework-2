@@ -25,3 +25,7 @@ func CalcSquare(sideLen float64, sidesNum side) float64 {
 		return 0
 	}
 }
+
+func main() {
+
+}
