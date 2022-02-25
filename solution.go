@@ -7,19 +7,19 @@ import (
 type side int
 
 const (
-	a = 0
-	b = 3
-	c = 4
+	SidesCircle   = 0
+	SidesTriangle = 3
+	SidesSquare   = 4
 )
 
 func CalcSquare(sideLen float64, sidesNum side) float64 {
 	pow := math.Pow(sideLen, 2)
 	switch sidesNum {
-	case a:
+	case SidesCircle:
 		return math.Pi * pow
-	case b:
+	case SidesTriangle:
 		return (pow * math.Sqrt(3)) / 4
-	case c:
+	case SidesSquare:
 		return pow
 	default:
 		return 0
